@@ -1,0 +1,142 @@
+html {
+  height: 100%;
+}
+.container{
+  width: 40%;
+  color: white;
+  border: 1px solid black;
+  padding: 60px 30px;
+  background-color: rgba(0,0,0,.7);
+  }
+  .form-label{
+    float: left;
+  }
+  .form-control{
+    color: #D3D4D6;
+    opacity: .8;
+    padding-left: 5%;
+    border-radius: 15px;
+    margin-bottom: 4%;
+  }
+  .form-control:focus{
+    border: 0.8px solid green;
+    box-shadow: 3px 2px green;
+  }
+  .btn{
+    background-color: red;
+    color: white;
+    border: 1px solid green;
+    width: 35%;
+    height: 15%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 5%;
+  }
+  .btn:hover{
+    cursor: url('../icon/cur1162.png'),auto;
+    background-color: green;
+    border: .5px solid red;
+  }
+  .h6{
+    color: green;
+  }
+  .register p{
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    width: 35%;
+    height: 15%;
+    margin: 2% 0;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: .5px solid red;
+  }
+  .register p:hover{
+    background-color: red;
+    border: .5px solid green;
+  }
+  
+  .register a{
+    text-decoration: none;
+    cursor: url('../icon/cur1162.png'),auto;
+  }
+  .heading img{
+    float: left;
+ }
+ @media only screen and (max-width:1050px){
+    .container{
+      width: 60%;
+      margin-top: 30%;
+      padding: 10% 5%;
+    }
+    .heading h1{
+      float: left;
+      font-size: 46px;
+    }
+    .form-label{
+      font-size: 24px;
+    }
+ }
+ @media only screen and (max-width:950px){
+    .container{
+      width: 70%;
+      margin-top: 20%;
+      padding: 10% 5%;
+    }
+ }
+
+  @media only screen and (max-width:750px){
+    .container{
+      margin-top: 10%;
+    }
+    .heading h1{
+      font-size: 28px;
+      margin-top: 3%;
+    }
+  }
+
+ @media only screen and (max-width:450px){
+    .container{
+      width: 90%;
+      margin-top: 5%;
+      padding: 10% 5%;
+    }
+    .heading h1{
+      font-size: 30px;
+      margin-top: 2%;
+    }
+ }
+  @media only screen and (max-width:400px){
+    .container{
+      margin-top: 0;
+      padding-top: 0;
+    }
+    .heading h1{
+      font-size: 28px;
+      margin-top: 2%;
+    }
+  }
+  @media only screen and (max-width:350px){
+    .heading h1{
+      font-size: 20px;
+      margin-top: 2%;
+    }
+    .container{
+      margin-top: 2%;
+      width: 100%;
+    }
+    .container img{
+      height: 40px;
+      width: 60px;
+    }
+    .form-label{
+      font-size: 16px;
+    }
+    .register p{
+      font-size: 14px;
+    }
+    .btn{
+      font-size: 14px;
+    }
+  }
